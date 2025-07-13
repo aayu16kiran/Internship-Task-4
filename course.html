@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>E-Learn | Course</title>
+  <link rel="stylesheet" href="stylee.css" />
+</head>
+<body>
+
+  <header class="navbar">
+    <div class="logo">E-Learn</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="course.html">My Courses</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>JavaScript Essentials</h1>
+
+    <div class="video-container">
+      <iframe src="https://www.youtube.com/embed/PkZNo7MFNFg" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <div class="progress-tracker">
+      <label>Progress: <span id="progressPercent">60%</span></label>
+      <progress id="courseProgress" value="60" max="100"></progress>
+      <button onclick="incrementProgress()">Mark as Complete</button>
+    </div>
+  </main>
+
+  <script src="scriptt.js"></script>
+</body>
+</html>
